@@ -14,3 +14,7 @@
     height: auto;
     align-items: center !important;
 }
+
+.profile-image, .project-image { width: 220px; height: 220px; object-fit: cover; }
+        .vh-100-minus-nav { min-height: calc(100vh - 76px); }
+        .section-title { border-left-width: 8px !important; }

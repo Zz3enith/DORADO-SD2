@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+        <title>Bootstrap - Layout and Best Practices</title>
+
+    </head>
+    <body>
+      <!-- Navbar -->
+        <nav id="navbar" class="navbar navbar-dark bg-dark sticky-top">
+          <div class="container d-flex align-items-center justify-content-between">
+            <a class="navbar-brand text-warning fw-bold" href="#banner">My Website</a>
+            <ul class="navbar-nav flex-row ms-auto gap-2">
+              <li class="nav-item"><a class="nav-link py-0" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link py-0" href="#section">Services</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Banner Section -->
+        <section id="banner">
+            <div class="container min-vh-100 py-5 d-flex flex-column align-items-center justify-content-center text-center px-3">
+                <h1>Welcome to My Website</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            </div>
+            
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about">
+            <div id="about-row" class="container min-vh-100 py-5">
+                <div class="row g-4 align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt nisi et sem eleifend aliquet. Fusce interdum rutrum ipsum, non feugiat risus consectetur eu. Nulla sodales orci et mi ultrices, at mattis leo gravida. Curabitur non dapibus orci.</p>
+                    </div>
+                    <div class="col-12 col-lg-6 text-center text-lg-end">
+                        <img src="https://res.cloudinary.com/dneeqo5vq/image/upload/v1708477409/2024-Maserati-GranTurismo-Review-550x350_gopzhy.jpg" class="img-fluid border border-2 border-warning car-image rounded" alt="Maserati GranTurismo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="section" class="container min-vh-100 py-5 d-flex flex-column align-items-start justify-content-center text-start mt-5">
+            <div class="d-flex m-1">
+                <h1 class="text-warning display-4 fw-bold border-start border-warning ps-3 border-5">Services</h1>
+            </div> 
+            <div id="section-row" class="row g-3 mt-3">
+                <div id="section-col-1" class="col-12 col-md-4">
+                    <div id="section-web-dev" class="border border-2 rounded p-3 h-100">
+                        <h3>Web Development</h3>
+                        <p>We provide professional web development services.</p>
+                    </div>
+                </div>
+
+                <div id="section-col-2" class="col-12 col-md-4">
+                    <div id="section-design" class="border border-2 rounded p-3 h-100">
+                        <h3>Graphic Design</h3>
+                        <p>Our talented designers create stunning graphics for your brand.</p>
+                    </div>
+                </div>
+
+                <div id="section-col-3" class="col-12 col-md-4">
+                    <div id="section-marketing" class="border border-2 rounded p-3 h-100">
+                        <h3>Digital Marketing</h3>
+                        <p>We help businesses grow their online presence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer" class="d-flex flex-wrap gap-2 justify-content-center bg-dark text-white p-4 text-center">
+            <div>&copy;  2023 My Website.</div>
+            <div>|</div>
+            <div>All rights reserved.</div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio Template</title>
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Optional: keep your existing stylesheet if it provides styles used in this design -->
+    <link rel="stylesheet" href="/Session-11/index.css">
+
+    <style>
+        /* Minimal helpers for this template to look good even without a custom CSS file */
+        
+    </style>
+</head>
+<body>
+    <!-- Nav Bar Start -->
+    <nav class="p-3 bg-light shadow text-primary border-bottom border-primary border-2 sticky-top">
+        <div class="d-flex flex-row align-items-center gap-3 mx-0 mx-lg-5">
+            <a href="#home" class="text-decoration-none fw-bold me-auto">Dev Portfolio</a>
+            <ul class="d-flex flex-row list-unstyled gap-3 m-0">
+                <li><a href="#home" class="text-decoration-none">Home</a></li>
+                <li><a href="#about" class="text-decoration-none">About</a></li>
+                <li><a href="#skills" class="text-decoration-none">Skills</a></li>
+
+                <li><a href="#projects" class="text-decoration-none">Projects</a></li>
+
+                <li><a href="#contact" class="text-decoration-none">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Nav Bar End -->
+
+    <!-- Hero / Profile Start -->
+    <header id="home" class="bg-dark p-3 p-lg-5 text-light d-flex align-items-center justify-content-center">
+        <div class="container vh-50-minus-nav p-3 p-lg-5">
+            <div class="row align-items-center g-4">
+                <!-- Left: Name and text -->
+                <div class="col-12 col-md-7 order-2 order-md-1 text-center text-md-start">
+                    <h1 id="hero-name" class="display-4 fw-bold">Your Name</h1>
+                    <h2 id="hero-role" class="h2 mt-2">Your Title or Role</h2>
+                    <p id="hero-summary" class="mt-4 lead">Brief 2–3 sentence summary about yourself, your focus, and what makes you unique.</p>
+                    <div class="d-flex gap-3 mt-3 flex-wrap justify-content-center justify-content-md-start">
+                        <a id="hero-cta-primary" href="#projects" class="btn btn-primary">View Projects</a>
+                        <a id="hero-cta-secondary" href="#contact" class="btn btn-outline-light">Contact Me</a>
+                    </div>
+                </div>
+                <!-- Right: Image -->
+                <div class="col-12 col-md-5 order-1 order-md-2 text-center text-md-end">
+                    <img id="hero-photo" src="https://static.vecteezy.com/system/resources/previews/034/954/571/non_2x/ai-generated-business-man-character-profile-free-png.png" alt="Profile photo" class="img-fluid profile-image bg-secondary rounded-circle p-3 my-4 ms-md-auto">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Hero / Profile End -->
+
+    <!-- About Start -->
+    <section id="about" class="bg-white p-5">
+        <div class="container">
+            <div class="d-flex m-1">
+                <h2 class="text-primary display-6 fw-bold section-title border-start border-primary ps-3">About</h2>
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-12 col-lg-5 text-center text-lg-start">
+                    <img id="about-photo" src="" alt="About image" class="img-fluid rounded-4 shadow-sm">
+                </div>
+                <div class="col-12 col-lg-7">
+                    <p id="about-paragraph-1" class="mb-3">Add an introductory paragraph about your background, interests, or current focus.</p>
+                    <p id="about-paragraph-2" class="mb-3">Highlight strengths, achievements, or guiding principles. Keep it concise and impactful.</p>
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6">
+                            <div id="about-highlight-1" class="p-3 border rounded-3 h-100">Key highlight or stat (e.g., years of experience, certifications).</div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div id="about-highlight-2" class="p-3 border rounded-3 h-100">Another highlight (e.g., communities, speaking, volunteering).</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Skills Start -->
+    <section id="skills" class="bg-light p-5">
+        <div class="container">
+            <div class="d-flex m-1">
+                <h2 class="text-primary display-6 fw-bold section-title border-start border-primary ps-3">Skills</h2>
+            </div>
+            <div class="row g-3 mt-2" id="skills-list">
+                <!-- Add/remove skill badges -->
+                <div class="col-auto"><span class="badge text-bg-primary p-2">HTML</span></div>
+                <div class="col-auto"><span class="badge text-bg-secondary p-2">CSS</span></div>
+                <div class="col-auto"><span class="badge text-bg-success p-2">JavaScript</span></div>
+                <div class="col-auto"><span class="badge text-bg-dark p-2">Add More…</span></div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills End -->
+
+    <!-- Recognitions Start -->
+    <section id="recognition" class="bg-white p-5">
+        <div class="container">
+            <div class="d-flex m-1">
+                <h2 class="text-primary display-6 fw-bold section-title border-start border-primary ps-3">Recognitions</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 p-2 p-lg-4">
+                    <div id="recognition-1" class="text-center p-3 border rounded-4 shadow-sm h-100">
+                        <p class="fw-bold text-primary mb-1">Award or Recognition Title</p>
+                        <p class="small text-muted mb-0">Organization • Year</p>
+                        <p class="mt-2">Short description of the recognition and why it matters.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 p-2 p-lg-4">
+                    <div id="recognition-2" class="text-center p-3 border rounded-4 shadow-sm h-100">
+                        <p class="fw-bold text-primary mb-1">Award or Recognition Title</p>
+                        <p class="small text-muted mb-0">Organization • Year</p>
+                        <p class="mt-2">Short description of the recognition and why it matters.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 p-2 p-lg-4">
+                    <div id="recognition-3" class="text-center p-3 border rounded-4 shadow-sm h-100">
+                        <p class="fw-bold text-primary mb-1">Award or Recognition Title</p>
+                        <p class="small text-muted mb-0">Organization • Year</p>
+                        <p class="mt-2">Short description of the recognition and why it matters.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Recognitions End -->
+
+    <!-- Projects Start -->
+    <section id="projects" class="bg-dark text-light p-5 m-10 ">
+        <div class="container">
+            <div class="d-flex m-1">
+                <h2 class="text-light display-6 fw-bold section-title border-start border-light ps-3">Projects</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 p-2 p-lg-4">
+                    <div class="text-center">
+                        <img id="project-1-image" src="" alt="Project image" class="img-fluid project-image bg-primary rounded-circle p-3 my-3">
+                    </div>
+                    <div id="project-1" class="text-center p-3 border rounded-4 shadow-sm h-100 bg-transparent">
+                        <p id="project-1-title" class="fw-bold h4 mb-1">Project Title</p>
+                        <p id="project-1-subtitle" class="small text-muted mb-2">Tech stack or brief subtitle</p>
+                        <p id="project-1-description">One paragraph describing what the project does and your role.</p>
+                        <div class="d-flex justify-content-center gap-2">
+                            <a id="project-1-link" href="#" class="btn btn-sm btn-primary">Live</a>
+                            <a id="project-1-repo" href="#" class="btn btn-sm btn-outline-light">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-2 p-lg-4">
+                    <div class="text-center">
+                        <img id="project-2-image" src="" alt="Project image" class="img-fluid project-image bg-primary rounded-circle p-3 my-3">
+                    </div>
+                    <div id="project-2" class="text-center p-3 border rounded-4 shadow-sm h-100 bg-transparent">
+                        <p id="project-2-title" class="fw-bold h4 mb-1">Project Title</p>
+                        <p id="project-2-subtitle" class="small text-muted mb-2">Tech stack or brief subtitle</p>
+                        <p id="project-2-description">One paragraph describing what the project does and your role.</p>
+                        <div class="d-flex justify-content-center gap-2">
+                            <a id="project-2-link" href="#" class="btn btn-sm btn-primary">Live</a>
+                            <a id="project-2-repo" href="#" class="btn btn-sm btn-outline-light">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-2 p-lg-4">
+                    <div class="text-center">
+                        <img id="project-3-image" src="" alt="Project image" class="img-fluid project-image bg-primary rounded-circle p-3 my-3">
+                    </div>
+                    <div id="project-3" class="text-center p-3 border rounded-4 shadow-sm h-100 bg-transparent">
+                        <p id="project-3-title" class="fw-bold h4 mb-1">Project Title</p>
+                        <p id="project-3-subtitle" class="small text-muted mb-2">Tech stack or brief subtitle</p>
+                        <p id="project-3-description">One paragraph describing what the project does and your role.</p>
+                        <div class="d-flex justify-content-center gap-2">
+                            <a id="project-3-link" href="#" class="btn btn-sm btn-primary">Live</a>
+                            <a id="project-3-repo" href="#" class="btn btn-sm btn-outline-light">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects End -->
+
+    <!-- Experience Start -->
+    <section id="experience" class="bg-white p-5">
+        <div class="container">
+            <div class="d-flex m-1">
+                <h2 class="text-primary display-6 fw-bold section-title border-start border-primary ps-3">Experience</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-12">
+                    <div id="exp-1" class="p-3 border rounded-3">
+                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-1">
+                            <span id="exp-1-role" class="fw-bold">Role Title</span>
+                            <span id="exp-1-duration" class="text-muted small">Start – End</span>
+                        </div>
+                        <div class="text-muted small" id="exp-1-company">Company • Location</div>
+                        <ul id="exp-1-bullets" class="mt-2 mb-0">
+                            <li>Key responsibility or achievement.</li>
+                            <li>Impact metric or result.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div id="exp-2" class="p-3 border rounded-3">
+                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-1">
+                            <span id="exp-2-role" class="fw-bold">Role Title</span>
+                            <span id="exp-2-duration" class="text-muted small">Start – End</span>
+                        </div>
+                        <div class="text-muted small" id="exp-2-company">Company • Location</div>
+                        <ul id="exp-2-bullets" class="mt-2 mb-0">
+                            <li>Key responsibility or achievement.</li>
+                            <li>Impact metric or result.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experience End -->
+
+    <!-- Education Start -->
+    <section id="education" class="bg-light p-5">
+        <div class="container">
+            <div class="d-flex m-1">
+                <h2 class="text-primary display-6 fw-bold section-title border-start border-primary ps-3">Education</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-12 col-md-6">
+                    <div id="edu-1" class="p-3 border rounded-3 h-100">
+                        <div class="fw-bold" id="edu-1-degree">Degree / Program</div>
+                        <div class="text-muted small" id="edu-1-school">School / University</div>
+                        <div class="text-muted small" id="edu-1-duration">Start – End</div>
+                        <p id="edu-1-notes" class="mb-0 mt-2">Highlights, GPA, awards, relevant coursework.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div id="edu-2" class="p-3 border rounded-3 h-100">
+                        <div class="fw-bold" id="edu-2-degree">Degree / Program</div>
+                        <div class="text-muted small" id="edu-2-school">School / University</div>
+                        <div class="text-muted small" id="edu-2-duration">Start – End</div>
+                        <p id="edu-2-notes" class="mb-0 mt-2">Highlights, GPA, awards, relevant coursework.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Education End -->
+
+    <!-- Contact Start -->
+    <section id="contact" class="bg-white p-5">
+        <div class="container">
+            <div class="d-flex m-1">
+                <h2 class="text-primary display-6 fw-bold section-title border-start border-primary ps-3">Contact</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-12 col-lg-6">
+                    <div class="p-3 border rounded-3 h-100">
+                        <div class="mb-2"><span class="fw-bold">Email:</span> <span id="contact-email">you@example.com</span></div>
+                        <div class="mb-2"><span class="fw-bold">Phone:</span> <span id="contact-phone">+00 000 0000</span></div>
+                        <div class="mb-2"><span class="fw-bold">Location:</span> <span id="contact-location">City, Country</span></div>
+                        <div class="mt-3 d-flex gap-2 flex-wrap">
+                            <a id="contact-github" class="btn btn-sm btn-outline-primary" href="#">GitHub</a>
+                            <a id="contact-linkedin" class="btn btn-sm btn-outline-primary" href="#">LinkedIn</a>
+                            <a id="contact-portfolio" class="btn btn-sm btn-outline-primary" href="#">Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <form id="contact-form" class="p-3 border rounded-3 bg-light">
+                        <div class="mb-3">
+                            <label for="contact-name" class="form-label">Name</label>
+                            <input id="contact-name" type="text" class="form-control" placeholder="Your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="contact-email-input" class="form-label">Email</label>
+                            <input id="contact-email-input" type="email" class="form-control" placeholder="your@email.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="contact-message" class="form-label">Message</label>
+                            <textarea id="contact-message" rows="4" class="form-control" placeholder="How can I help?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-dark text-light p-4">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-2">
+            <div id="footer-copy" class="small">© <span id="footer-year">2026</span> <span id="footer-name">Your Name</span>. All rights reserved.</div>
+            <div class="d-flex gap-3 small">
+                <a id="footer-privacy" href="#" class="text-decoration-none text-light-50">Privacy</a>
+                <a id="footer-terms" href="#" class="text-decoration-none text-light-50">Terms</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
