@@ -4,3 +4,9 @@
     border-radius: 50%;
     object-fit: cover;
 }
+
+.tools-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
