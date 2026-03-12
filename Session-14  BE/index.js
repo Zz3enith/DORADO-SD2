@@ -78,3 +78,4 @@ console.log("My height is " + height);
 
 //  Type Coercion
 //  Concatenation of string a number or other data types will result in a string
+
