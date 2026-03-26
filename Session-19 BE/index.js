@@ -88,15 +88,15 @@ let registration = function(name, age) {
 let value = registration("John doe", 26);
     console.log("Age: " + value);
 
-    function checkAge(age) {
-        if (age <= 17) {
-            console.log("Sorry, you cannot register.");
-        } else if (age <= 30) {
-            console.log("Proceed with basic account");
-        } else (age <= 60) {
-            console.log("Proceed with premium account");
-        }
+function checkAge(age){
+    if(age <= 17){
+        console.log("You cannot proceed!");
+    }else if (age <= 30){
+        console.log("You can apply for basic account.");
+    }else{
+        console.log("You can apply for premium account.");
     }
+}
 
+checkAge(value);
 
-registration
